@@ -1,0 +1,14 @@
+{
+  "site": "https://iscaflora.pages.dev",
+  "project": "iscaflora",
+  "files": 36,
+  "largestFileBytes": 2586917,
+  "build": "76bcf5f5dc785cc2",
+  "ogImage": "https://iscaflora.pages.dev/og/isca-flora-og.png",
+  "cacheExcludes": [
+    "visitor form values",
+    "all video streams",
+    "external platforms"
+  ],
+  "generatedHeaders": true
+}

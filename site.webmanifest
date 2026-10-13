@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "ISCA & Flora Play School",
+  "short_name": "ISCA & Flora",
+  "description": "Education with morality, since 2012. Discover ISCA’s school and entrance-exam support, and Flora Play School’s early-years beginnings in Topsia, Kolkata.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "en-IN",
+  "background_color": "#fbfbf6",
+  "theme_color": "#243fc5",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "isca-flora-website",
+  "version": "2.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Research-informed ISCA Kolkata and Flora Play School website using authentic public institution media.",
+  "scripts": {
+    "dev": "node scripts/prepare-site.mjs && vite --host 0.0.0.0 --port 3000",
+    "build": "node scripts/prepare-site.mjs && vite build && node scripts/postbuild.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 3000",
+    "test": "playwright test",
+    "deploy": "npm run build && npx wrangler pages deploy dist --project-name iscaflora",
+    "check:production": "node scripts/serve-production.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "lucide-react": "^1.55.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "vite": "^8.3.4"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.64.0"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
